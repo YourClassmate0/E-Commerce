@@ -1,0 +1,698 @@
+/*Avatar */
+#avatar {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background-image: url("assets/img/avatar.png");
+	background-size: cover;
+}
+/*Avatar(admin)*/
+#admin {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background-image: url("assets/img/admin.png");
+	background-size: cover;
+}
+
+/*footer*/
+.footer-content {
+	height: 150px;
+	background-color:#111111 !important;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.contact {
+	padding-right: 50px;
+}
+.contacts {
+	color: white;
+}
+.social {
+	padding-left: 50px;
+	color: white;
+	
+}
+.icons {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer-title {
+	margin-top: 10px;
+	font-size: 30px;
+}
+
+/*Search Bar*/
+.search {
+	font-size: 20px;
+	text-align: center;
+	margin: auto;
+	margin-top: 30px;
+}
+.search input {
+	width: 300px;
+}
+.search button {
+	width: 100px;
+	background: white;
+	color:#373737;
+}
+.search button:hover {
+	background: #373737;
+	color: white;
+}
+
+/* Categories */
+.categories {
+	margin: 70px 0;
+}
+.categories .categories-container h2 {
+	text-align: center;
+	margin: 20px;
+}
+.categories .categories-container .row {
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+.categories .categories-container .row .col-3 {
+	flex-basis: 30%;
+	min-width: 250px;
+}
+.categories .categories-container .row .col-3 h4 {
+	text-align: center;
+	margin-top: 10px;
+	
+}
+.categories .categories-container .row .col-3 img {
+	width: 100%;
+}
+.categories .categories-container {
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	
+}
+/*Products*/
+.product .product-list {
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.product .product-container {
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	
+}
+.product .product-container .row .col-4 {
+	flex-basis: 25%;
+	padding: 10px;
+	min-width: 200px;
+	margin-bottom: 25px;
+	transition: transform 0.5s;
+	
+}
+.product .product-container .row .col-4:hover {
+	transform: translateY(-5px);
+}
+
+.product h2 {
+	text-align: center;
+	margin: 20px;
+}
+
+.product .product-container .row .col-4 img {
+	width: 100%s;
+}
+/*pagination*/
+.page-btn {
+	margin: 0 auto 80px;
+}
+.page-btn span {
+	display: inline-block;
+	border: 1px solid black;
+	margin-left: 1-px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
+.page-btn span:hover {
+	background: #373737;
+	color: white;
+}
+
+/*Login Form*/
+
+.login-form form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 75vh;
+	width: 75vh;
+	flex-direction: column;
+	text-align:center;
+	margin: 50px auto;
+	color:black;
+	border: 2px solid #ccc;
+	padding: 20px;
+	background: #fff;
+	border-radius: 15px;
+	overflow:hidden;
+
+} 
+.login-form button {
+	background: white;
+	color: black;
+	border: 2px solid black;
+	border-radius: 5px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	width: 100px;
+}
+.login-form button:hover {
+	background: #373737;
+	color: white;
+}
+.login-form h2 {
+	margin-top: 20px;
+}
+.login-form label {
+	color:black;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 15px;
+}
+.login-form input {
+	font-size: 15px;
+	color: black;
+}
+/*Signup form*/
+.signup-form form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 110vh;
+	width: 75vh;
+	flex-direction: column;
+	text-align:center;
+	margin: 50px auto;
+	color:black;
+	border: 2px solid #ccc;
+	padding: 20px;
+	background: #fff;
+	border-radius: 15px;
+	overflow:hidden;
+
+} 
+.signup-form button {
+	background: white;
+	color: black;
+	border: 2px solid black;
+	border-radius: 5px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	width: 100px;
+}
+.signup-form button:hover {
+	background: #373737;
+	color: white;
+}
+.signup-form h2 {
+	margin-top: 20px;
+}
+.signup-form label {
+	color:black;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+}
+.signup-form input {
+	font-size: 15px;
+	color: black;
+}
+
+
+/*Item Page*/
+.item-container {
+	margin-top: 50px;
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.item-container .row .col-2 img {
+	padding: 0;
+	width: 100%;
+}
+.item-container .row .col-2 {
+	padding: 20px;
+	flex-basis: 50%;
+	padding: 10px;
+	min-width: 200px;
+	margin-bottom: 50px;
+	
+}
+.item-container .row .col-2 h3 {
+	margin: 20px 0;
+	font-size: 22px;
+	font-weight: bold;
+	
+}
+.item-container .row .col-2 h2 {
+	text-align: left;
+	margin: 10px 0px 10px 0px;
+	font-size: 30px;
+}
+.item-container h2 {
+	font-size: 50px;
+	margin: 15px;
+	text-align: center;
+}
+
+.item-container .row .col-2 .cart-button button {
+	background: white;
+	color: black;
+	margin-right: 50px;
+	border: 2px solid black;
+	border-radius: 5px;
+	font-size: 20px;
+}
+.item-container .row .col-2 .cart-button button:hover {
+	background: #373737;
+	color: white;
+}
+.item-container .row .col-2 .checkout-button button {
+	background: white;
+	color: black;
+	border: 2px solid black;
+	border-radius: 5px;
+	font-size: 20px;
+}
+.item-container .row .col-2 .checkout-button button:hover {
+	background: #373737;
+	color: white;
+}
+.item-container .row .col-2 .confirm-button button {
+	background: white !important;
+	color: black !important;
+	border: 2px solid black;
+	border-radius: 5px;
+	font-size: 20px;
+}
+.item-container .row .col-2 .confirm-button button:hover {
+	background: #373737 !important;
+	color: white !important;
+}
+.item-container .row .col-2 .buttons {
+	margin: 25px;
+	display:flex;
+	justify-content: center;
+}
+
+/*Add to Cart confirm*/
+.confirm-button button {
+	border: 2px solid black;
+	border-radius: 5px;
+	font-size: 20px;
+}
+.cancel-button button {
+	border: 2px solid black;
+	border-radius: 5px;
+	margin-left: 50px;
+	font-size: 20px;
+}
+.buttons {
+	margin: 25px;
+	display:flex;
+	justify-content: center;
+}
+/*Add Minus button*/
+.quantity {
+	display: flex;
+
+}
+.quantity button {
+	width: 45px;
+	height: 45px;
+	border: 2px solid black;
+	color: black;
+}
+.quantity button:hover {
+	background: #373737;
+	color: white;
+}
+.quantity input {
+	border: none;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	text-align: center;
+	width: 90px;
+	color: black;
+}
+/**Payment Form**/
+.payment-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 75vh;
+	width: 120vh !important;
+	flex-direction: column;
+	text-align:center;
+	margin: 50px auto;
+	color:black;
+	border: 2px solid #ccc;
+	padding: 20px;
+	background: #fff;
+	border-radius: 15px;
+	overflow:hidden;
+
+} 
+.payment-form form .payment-buttons {
+	display: flex;
+	margin: 20px 30px 20px 130px;
+
+}
+.payment-form button {
+	background: white;
+	color: black;
+	border: 2px solid black;
+	border-radius: 5px;
+	font-size: 20px;
+	width: 120px;
+}
+.payment-form button:hover {
+	background: #373737;
+	color: white;
+}
+
+.payment-form label {
+	color:black;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+}
+.payment-form .inputs input {
+	font-size: 15px;
+	width: 250px;
+	color: black;
+}
+.confirmPayment-form {
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 75vh;
+	width: 100vh;
+	flex-direction: column;
+	text-align:center;
+	margin: 50px auto;
+	color:black;
+	border: 2px solid #ccc;
+	padding: 20px;
+	background: #fff;
+	border-radius: 15px;
+	overflow:hidden;
+}
+.confirmPayment-form form .buttons {
+	display: flex;
+	margin: 20px 30px 20px 40px;
+}
+.confirmPayment-form button {
+	background: white;
+	color: black;
+	border: 2px solid black;
+	border-radius: 5px;
+	font-size: 20px;
+	width: 100px;
+}
+.confirmPayment-form button:hover {
+	background: #373737;
+	color: white;
+}
+/**signup and login**/
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #444;
+}
+.ca:hover {
+	text-decoration: underline;
+} 
+.login-form h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+.signup-form h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+
+.cart button {
+	float: right;
+	background: #white;
+	padding: 10px 15px;
+	color: #black;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: 2px solid black;
+	margin-bottom: 10px;
+}
+.cart button:hover{
+	background: #373737;
+	color: white;
+}
+.cart-checkout button {
+	float: right;
+	background: #white;
+	padding: 10px 15px;
+	color: #black;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: 2px solid black;
+	margin-bottom: 10px;
+}
+.cart-checkout button:hover{
+	background: #373737;
+	color: white;
+}
+.cart-remove button {
+	float: right;
+	background: #white;
+	padding: 10px 15px;
+	color: #black;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: 2px solid black;
+	margin-bottom: 10px;
+}
+.cart-remove button:hover{
+	background: #373737;
+	color: white;
+}
+.cart-edit button {
+	float: right;
+	background: #white;
+	padding: 10px 15px;
+	color: #black;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: 2px solid black;
+	margin-bottom: 10px;
+}
+.cart-edit button:hover{
+	background: #373737;
+	color: white;
+}
+.account h4 {
+	text-align: left;
+	margin-bottom: 40px;
+}
+.cart h4 {
+	text-align: left;
+	
+}
+.cart-checkout h4 {
+	text-align: left;
+	margin-bottom: 40px;
+}
+.cart-edit h4 {
+	text-align: left;
+	margin-bottom: 40px;
+}
+.cart-remove h4 {
+	text-align: left;
+	margin-bottom: 40px;
+}
+
+.table-container table {
+	min-width: 1000px;
+	margin: auto;
+	border-collapse: collapse;
+	font-size: 0.9em;
+	border: 1px solid black;
+	margin-bottom: 25px;
+	overflow: hidden;
+	
+}
+.table-content thead tr  {
+	background-color:#373737;
+	color: white;
+	text-align: left;
+	font-weight: bold;
+	font-size: 25px;
+}
+.table-content th, .table-content td {
+	padding: 12px 15px;
+}
+.table-content tbody tr {
+	border-bottom: 1px solid black;
+}
+.table-content tbody tr:nth-of-type(even) {
+	background-color:#DCDCDC;
+}
+.table-content tbody tr:last-of-type {
+	border-bottom: 5px solid #373737;
+}
+.cart-buttons {
+	margin-right: 165px;
+}
+.breadcrumbs {
+	margin-left: 25px;
+	margin-top: 20px;
+	
+}
+.breadcrumbs a {
+	text-decoration: none;
+	color: black;
+}
+.cart-title {
+	text-align: center;
+	margin: 20px 0 20px 0;
+}
+.account {
+	height: 300px;
+	width: 800px;
+	display: flex;
+	border: 2px solid black;
+	margin: auto;
+	margin-bottom: 50px;
+	margin-top: 50px;	
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	
+}
+.account .col-img {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 10px;
+}
+.account .col-img a {
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+}
+.settings-content {
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: 700px;
+	width: 800px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+}
+.settings-content .tab-content {
+	padding: 10px 0 0 30px;
+	
+}
+.settings-content .tab-content p {
+	font-size: 20px;
+}
+.settings-content .tab-content .edit-info {
+	float: right;
+	margin: 10px 50px 10px 20px;
+	background: #white;
+	color: #black;
+	border-radius: 5px;
+	border: 2px solid black;
+	font-size: 20px;
+	width: 175px;
+	height: 50px;
+}
+.settings-content .tab-content .edit-info:hover{
+	background: #373737;
+	color: white;
+}
+
+.login-content .loginpage {
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 400px;
+	height: 400px;
+	border: 2px solid black;
+	border-radius: 12px;
+}
+.login-content .loginpage .inputs {
+	text-align: center;
+	
+}
+.login-content .loginpage .inputs h2 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.login-content .loginpage .inputs p {
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+.login-content .loginpage .inputs button {
+	height: 50px;
+	width: 175px;
+	margin-bottom: 30px;
+	font-size: 20px;
+	border-radius: 5px;
+	background: white;
+	border: 2px solid black;
+}
+.login-content .loginpage .inputs button:hover {
+	background: #373737;
+	color: white;
+}
+
+
+/**.banner-area{
+	width:100%;
+	height:500px;
+	position:fixed;
+	top:100px;
+	background-image:url(ban.jpg);
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-position:center center;
+}
+.banner-area{
+	padding-top:8%;
+	font-size:70px;
+	font-family:poppins;
+	text-transform: uppercase;
+	color::#fff
+}**/
